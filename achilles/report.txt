@@ -1,0 +1,11 @@
+-----------------------------------
+Vulnerability Report is as follows:
+-----------------------------------
+
+[!] Form with non-HTTPS action found: Insecure form action /post.php found in document 
+<form action="/post.php">
+        username: <input name="username" type="text"/><br/>
+        password: <input name="password" type="password"/><br/>
+<input type="submit" value="Submit"/>
+</form>
+[!] Sensitive information found in HTML comments:  key: 421523eof56 
