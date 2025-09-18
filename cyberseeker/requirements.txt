@@ -1,0 +1,5 @@
+### 🔹 requirements.txt for CyberSeeker v2.1
+
+requests
+python-whois
+

@@ -1,0 +1,104 @@
+[
+  {
+    "ts": "2025-09-18 19:46:44",
+    "action": "start_scan",
+    "data": {
+      "target": "chat.deepseek.com",
+      "type": "port_scan",
+      "ports": "1-1024"
+    }
+  },
+  {
+    "ts": "2025-09-18 19:47:05",
+    "action": "scan_finished",
+    "data": {
+      "target": "chat.deepseek.com",
+      "type": "port_scan"
+    }
+  },
+  {
+    "ts": "2025-09-18 19:47:10",
+    "action": "start_scan",
+    "data": {
+      "target": "chat.deepseek.com",
+      "type": "service_detect",
+      "ports": "1-1024"
+    }
+  },
+  {
+    "ts": "2025-09-18 19:47:31",
+    "action": "scan_finished",
+    "data": {
+      "target": "chat.deepseek.com",
+      "type": "service_detect"
+    }
+  },
+  {
+    "ts": "2025-09-18 19:50:29",
+    "action": "start_scan",
+    "data": {
+      "target": "chat.deepseek.com",
+      "type": "os_fingerprint",
+      "ports": "1-1024"
+    }
+  },
+  {
+    "ts": "2025-09-18 19:50:29",
+    "action": "scan_finished",
+    "data": {
+      "target": "chat.deepseek.com",
+      "type": "os_fingerprint"
+    }
+  },
+  {
+    "ts": "2025-09-18 19:50:37",
+    "action": "start_scan",
+    "data": {
+      "target": "chat.deepseek.com",
+      "type": "vuln_scan",
+      "ports": "1-1024"
+    }
+  },
+  {
+    "ts": "2025-09-18 19:50:39",
+    "action": "scan_finished",
+    "data": {
+      "target": "chat.deepseek.com",
+      "type": "vuln_scan"
+    }
+  },
+  {
+    "ts": "2025-09-18 19:50:48",
+    "action": "start_scan",
+    "data": {
+      "target": "chat.deepseek.com",
+      "type": "whois_lookup",
+      "ports": "1-1024"
+    }
+  },
+  {
+    "ts": "2025-09-18 19:50:52",
+    "action": "scan_finished",
+    "data": {
+      "target": "chat.deepseek.com",
+      "type": "whois_lookup"
+    }
+  },
+  {
+    "ts": "2025-09-18 19:51:04",
+    "action": "start_scan",
+    "data": {
+      "target": "chat.deepseek.com",
+      "type": "dns_enum",
+      "ports": "1-1024"
+    }
+  },
+  {
+    "ts": "2025-09-18 19:51:04",
+    "action": "scan_finished",
+    "data": {
+      "target": "chat.deepseek.com",
+      "type": "dns_enum"
+    }
+  }
+]
